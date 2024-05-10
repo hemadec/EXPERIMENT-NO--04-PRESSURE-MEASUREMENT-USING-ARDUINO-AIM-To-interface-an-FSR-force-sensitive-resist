@@ -1,6 +1,6 @@
 # EXPERIMENT-NO--03-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
 
-### DATE : 4/3/24
+### DATE : 18/3/24
 ### NAME : Gokul
 ### ROLLNUMBER : 212221220013
 ### DEPARTMENT : IT
@@ -41,10 +41,10 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 ****Where R= 1KΩ in this experiment 
 ****That is, the voltage is proportional to the inverse of the FSR resistance.
 
-![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
+![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png) <br>
 
 
-![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/67353243-322a-4824-a169-565041080717)
+![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/67353243-322a-4824-a169-565041080717) <br>
 
 #### FIGURE-03 CIRCUIT DIAGRAM
 
