@@ -76,26 +76,49 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ Roll no: 212221220019
+ Name: Hemanathan
+ Department: IT
+ ``` c++
+int LED=7;
+int FSR;
+void setup()
+{
+  pinMode(LED,OUTPUT);
+  Serial.begin(9600);
+}
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
+void loop()
+{
+  FSR=analogRead(A0);
+  Serial.print("Raw value=");
+  Serial.println(FSR);
+  delay (500);
+  int m;
+  m=map(FSR,0,159,0,10);
+  Serial.print("Mapped value=");
+  Serial.println(m);
+  if(FSR>50)
+  {
+    digitalWrite(LED,LOW);
+    delay(500);
+    digitalWrite(LED,HIGH);
+    delay(500);
+  }   
+  
+}
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/63894379-d74d-4466-acb0-d88acc0b365f)
+![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/1998d5f6-8c9d-42e0-b290-386ff64846a9)
 
 
 ### TABLE -02 standard deviation table 
@@ -113,9 +136,10 @@ EX:           μ = (1+3+4+7+8) / 5 = 4.6
 σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
 
 ### OUTPUT:
-![out1](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/8987e526-933f-4f4a-950e-e00fa542e97b)
+![image](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/26823d3b-9123-4e2a-b666-5a1d680dc8bc)
+### Schematic diagram:
+![image](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/e0d54b43-cb6f-412c-9b4a-02c20e3e41a0)
 
-![out 2](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/f90298b1-264d-45d6-a5c2-c98e86042268)
 
 ### RESULTS : 
 Arduino uno is interfaced with FSR and output values are indicated on a graph.
