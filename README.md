@@ -59,6 +59,8 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
+![image](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/e0d54b43-cb6f-412c-9b4a-02c20e3e41a0)
+
 
 
 
@@ -117,8 +119,6 @@ void loop()
  
  
  
-![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/63894379-d74d-4466-acb0-d88acc0b365f)
-![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/1998d5f6-8c9d-42e0-b290-386ff64846a9)
 
 
 ### TABLE -02 standard deviation table 
@@ -135,10 +135,12 @@ EX:           μ = (1+3+4+7+8) / 5 = 4.6
 σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
 σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
 
-### OUTPUT:
-![image](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/26823d3b-9123-4e2a-b666-5a1d680dc8bc)
-### Schematic diagram:
-![image](https://github.com/hemadec/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/124191397/e0d54b43-cb6f-412c-9b4a-02c20e3e41a0)
+
+![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/63894379-d74d-4466-acb0-d88acc0b365f)
+![image](https://github.com/vasanthkumarch/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/103019882/1998d5f6-8c9d-42e0-b290-386ff64846a9)
+
+
+
 
 
 ### RESULTS : 
